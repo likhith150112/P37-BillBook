@@ -1,0 +1,6 @@
+{
+  "name": "BillBook — Invoice and GST Billing Software",
+  "description": "Commercial GST billing, invoicing, deterministic tax calculation, auto-categorisation, anomaly detection, and sales & GSTR reporting suite (Project P37: React, Java Spring Boot & MySQL).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

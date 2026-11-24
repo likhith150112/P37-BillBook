@@ -1,0 +1,21 @@
+caseId,label,injectedRule,customerId,issueDate,productId,hsnCode,quantity,unitPrice,discountPercent,gstRate,notes
+ANOM-01,NORMAL,NONE,cust-01,2026-10-01,prod-01,8471,2,54500,5,18,Normal laptop sale
+ANOM-02,NORMAL,NONE,cust-02,2026-10-03,prod-03,8517,5,6800,10,18,Normal router batch
+ANOM-03,NORMAL,NONE,cust-05,2026-10-05,prod-06,4820,15,1350,0,12,Normal stationery supply
+ANOM-04,NORMAL,NONE,cust-06,2026-10-08,prod-09,1006,10,2850,5,5,Normal food grain order
+ANOM-05,NORMAL,NONE,cust-08,2026-10-12,prod-08,4901,12,650,0,0,Normal GST handbook sale
+ANOM-06,NORMAL,NONE,cust-04,2026-10-14,prod-11,8415,1,41500,5,28,Normal 28% AC order
+ANOM-07,NORMAL,NONE,cust-07,2026-10-18,prod-12,9983,2,12000,10,18,Normal AMC plan
+ANOM-08,NORMAL,NONE,cust-01,2026-10-22,prod-02,8528,3,18900,5,18,Normal monitor batch
+ANOM-09,NORMAL,NONE,cust-02,2026-10-25,prod-04,8443,4,5200,0,18,Normal thermal printers
+ANOM-10,NORMAL,NONE,cust-05,2026-10-29,prod-05,9403,6,8400,10,18,Normal office chairs
+ANOM-11,ANOMALY,ANOM_EXCESS_DISCOUNT,cust-01,2026-11-01,prod-01,8471,2,54500,35,18,Injected 35% excessive discount
+ANOM-12,ANOMALY,ANOM_EXCESS_DISCOUNT,cust-02,2026-11-02,prod-02,8528,3,18900,50,18,Injected 50% clearance discount
+ANOM-13,ANOMALY,ANOM_GST_HSN_MISMATCH,cust-03,2026-11-04,prod-01,8471,1,54500,0,5,Injected 5% GST on 18% laptop HSN 8471
+ANOM-14,ANOMALY,ANOM_GST_HSN_MISMATCH,cust-04,2026-11-06,prod-11,8415,1,41500,0,12,Injected 12% GST on 28% AC HSN 8415
+ANOM-15,ANOMALY,ANOM_QTY_OUTLIER,cust-05,2026-11-08,prod-06,4820,65,1350,5,12,Injected quantity spike (65 boxes)
+ANOM-16,ANOMALY,ANOM_QTY_OUTLIER,cust-06,2026-11-10,prod-07,4820,120,320,0,12,Injected extreme quantity spike (120 units)
+ANOM-17,ANOMALY,ANOM_UNIT_PRICE_DROP,cust-07,2026-11-12,prod-01,8471,2,21000,0,18,Injected >60% price drop below catalog
+ANOM-18,ANOMALY,ANOM_ZSCORE_TOTAL,cust-04,2026-11-14,prod-01,8471,12,54500,0,18,Injected statistical grand total outlier
+ANOM-19,ANOMALY,ANOM_DUPLICATE_INVOICE,cust-04,2026-11-15,prod-01,8471,12,54500,0,18,Injected duplicate invoice within 1 day matching ANOM-18 for cust-04
+ANOM-20,ANOMALY,ANOM_GST_HSN_MISMATCH,cust-08,2026-11-18,prod-09,1006,4,2850,0,18,Injected 18% GST on 5% rice HSN 1006
